@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header, nav, section {
+    border: 1px solid #333;
+    width: 600px;
+    margin: auto;
+    padding: 10px;
+}
+
+h1, h2 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+nav a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #868686;
+    width: 100px;
+    height: 50px;
+    text-decoration: none;
+    border: 2px solid blue;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+nav a:hover {
+    background-color: yellow;
+}
+
+.section1 div {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-top: 0;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.section2 {
+    background-image: url(img/fondo.jpg);
+    background-size: cover;
+}
+
+.section2 div {
+    display: flex;
+    justify-content: center;
+}
+
+.section2 div ul ol {
+    font-size: 12px;
+}
+
+.list-img {
+    list-style: url(img/gorro_cocina.png);
+}
+
+.section3 p.parrafo1 {
+    color: blue;
+    font-size: 30px;
+}
+
+.section3 p.parrafo1 span {
+    color: red;
+}
+
+.section4 div {
+    display: flex;
+    justify-content: center;
+}
+
+.section4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+th {
+    text-align: center;
+}
+
+th, td {
+    border: 2px solid blue;
+    height: 30px;
+    width: 50px;
+    padding: 5px;
+}
