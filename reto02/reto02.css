@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    margin: auto;
+}
+
+table, th, td {
+    border: 1px solid blue;
+}
+
+th, td {
+    padding: 10px;
+    vertical-align: top;
+}
+
+.col1, .col2 {
+    width: 150px;
+}
+
+.col3 {
+    width: 300px;
+}
+
+img {
+    width: 130px;
+}
+
+.imagen1 {
+    width: 200px;
+    float: left;
+    margin-right: 10px;
+}
+
+.colimg {
+    display: flex;
+    margin: 5px;
+    gap: 5px;
+    justify-content: center;
+}
+
+.imagen2 {
+    width: 200px;
+}
+
+#imgbkg {
+    background-image: url("img/boton_on.jpg");
+}
